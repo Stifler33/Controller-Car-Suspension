@@ -16,3 +16,11 @@
   <li><a href="https://github.com/Stifler33/Controller-Car-Suspension/blob/main/8Ch-relay.pdf">8Ch-relay.pdf</a> - это описание модуля с реле. Он нужен больше для тех кто шарит))</li>
   <li><a href="https://github.com/Stifler33/Controller-Car-Suspension/blob/main/Schematic_car_suspension.pdf">Schematic_car_suspension.pdf</a> - это электронная принципиальная схема.</li>
 </ul>
+<h2>Важно !!! <img src="https://media1.tenor.com/m/ZFDl8QBRzCUAAAAC/warn-warning.gif" height="80"/></h2>
+<h3>Блоки реле бывают двух видов:</h3>
+<ul>
+  <li>У первых питание реле идет от 12 вольт</li>
+  <li>У вторых питание идет от 5 вольт</li>
+</ul>
+Что бы отличить что есть что, надо посмотреть маркировку на самих реле - там будет либо 12VDC либо 5VDC соответственно.<br>
+От этого зависит какое напряжение надо подавать на кондакт JD-VCC модуля реле. Этот контакт расположен на гребенке из трех штырьков с права. На схема это J3 3-й контакт.
