@@ -15,6 +15,7 @@
   <li><a href="https://github.com/Stifler33/Controller-Car-Suspension/blob/main/DendyGamepad.ino">DendyGamepad.ino</a> - это сам файл прошивки для контроллера Arduino Nano. Что можно в нем редактировать постараюсь описать</li>
   <li><a href="https://github.com/Stifler33/Controller-Car-Suspension/blob/main/8Ch-relay.pdf">8Ch-relay.pdf</a> - это описание модуля с реле. Он нужен больше для тех кто шарит))</li>
   <li><a href="https://github.com/Stifler33/Controller-Car-Suspension/blob/main/Schematic_car_suspension.pdf">Schematic_car_suspension.pdf</a> - это электронная принципиальная схема.</li>
+  <li><a href="https://github.com/Stifler33/Controller-Car-Suspension/blob/main/connection%20relay%20module.pdf">connection relay module.pdf</a> - это схема подключения клапанов к блоку реле</li>
 </ul>
 <h2>Важно !!! <img src="https://media1.tenor.com/m/ZFDl8QBRzCUAAAAC/warn-warning.gif" height="80"/></h2>
 <h3>Блоки реле бывают двух видов:</h3>
@@ -23,4 +24,6 @@
   <li>У вторых питание идет от 5 вольт</li>
 </ul>
 Что бы отличить что есть что, надо посмотреть маркировку на самих реле - там будет либо 12VDC либо 5VDC соответственно.<br>
-От этого зависит какое напряжение надо подавать на кондакт JD-VCC модуля реле. Этот контакт расположен на гребенке из трех штырьков с права. На схема это J3 3-й контакт.
+От этого зависит какое напряжение надо подавать на кондакт JD-VCC модуля реле. Этот контакт расположен на гребенке из трех штырьков с права. На схема это J3 3-й контакт.<br>
+Также ОЧЕНЬ важно поставить защитные диоды как на схеме <a href="https://github.com/Stifler33/Controller-Car-Suspension/blob/main/connection%20relay%20module.pdf">connection relay module.pdf</a> они стоят между контактом на клапан и землей. Если их не поставть то контроллер будет постоянно зависать !!!<br>
+
